@@ -59,7 +59,7 @@ class LeftDrawer extends StatelessWidget {
               // Navigasi ke halaman MoodEntryFormPage
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => MoodEntryFormPage()),
+                MaterialPageRoute(builder: (context) => const MoodEntryFormPage()),
               );
             },
           ),
